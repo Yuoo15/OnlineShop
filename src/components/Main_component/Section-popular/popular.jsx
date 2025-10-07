@@ -1,9 +1,9 @@
 import React, { useEffect, useMemo, useState } from "react";
 import styles from './popular.module.css';
-import photo_3 from '../../../assets/image 3.png';
-import photo_5 from '../../../assets/image 5.png';
-import photo_6 from '../../../assets/image 6.png';
-import photo_8 from '../../../assets/image 8.png';
+import photo_3 from '../../../assets/image3.png';
+import photo_5 from '../../../assets/image5.png';
+import photo_6 from '../../../assets/image6.png';
+import photo_8 from '../../../assets/image8.png';
 import Card from "@/modules/card/card";
 
 export default () => {

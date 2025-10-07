@@ -1,12 +1,12 @@
 
-import photo_1 from '../assets/image 1.png';
-import photo_2 from '../assets/image 2.png';
-import photo_3 from '../assets/image 3.png';
-import photo_4 from '../assets/image 4.png';
-import photo_5 from '../assets/image 5.png';
-import photo_6 from '../assets/image 6.png';
-import photo_7 from '../assets/image 7.png';
-import photo_8 from '../assets/image 8.png';
+import photo_1 from '../assets/image1.png';
+import photo_2 from '../assets/image2.png';
+import photo_3 from '../assets/image3.png';
+import photo_4 from '../assets/image4.png';
+import photo_5 from '../assets/image5.png';
+import photo_6 from '../assets/image6.png';
+import photo_7 from '../assets/image7.png';
+import photo_8 from '../assets/image8.png';
 export const cards = [
     { id: 1, text: 'Spiced Mint', photo: photo_1, price: '12$' },
     { id: 2, text: 'Sweet Straweberry', photo: photo_2, price: '16$' },

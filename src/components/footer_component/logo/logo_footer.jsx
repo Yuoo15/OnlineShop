@@ -1,7 +1,7 @@
 import styles from './logo_footer.module.css';
 import React from 'react';
-import wordmark_black from '../../../assets/wordmark_black.png'
-import logo_black from '../../../assets/icon_black.png'
+import wordmark_black from '../../../assets/wordmark-black.png'
+import logo_black from '../../../assets/icon-black.png'
 export default()=>{
     return(
         <>

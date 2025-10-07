@@ -3,7 +3,7 @@ import styles from "./otz.module.css";
 import Answer from "@/modules/Answer/answer";
 import avatar from '../../../assets/img.png';
 import avatar_1 from '../../../assets/bg.png';
-import avatar_2 from '../../../assets/bg_1.png';
+import avatar_2 from '../../../assets/bg-1.png';
 export default ()=>{
     const info = [
         {id: 1, name:'Lucia', title: "Отличный магазин!, все супер и быстро", rating: 5, img: avatar},
