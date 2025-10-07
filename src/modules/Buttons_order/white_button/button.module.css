@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+.white_button_white{
+    font-family: "Roboto", sans-serif;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    padding-inline:44px ;
+    padding-block: 8px;
+    color:#56B280;
+    border: 2px #56B280 solid;
+    border-radius: 4px;
+}

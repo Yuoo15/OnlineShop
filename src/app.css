@@ -1,0 +1,17 @@
+body{
+    background-color: white;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+html, body {
+    overflow: auto;
+    scrollbar-width: none;        
+    -ms-overflow-style: none;    
+}
+
+html::-webkit-scrollbar, body::-webkit-scrollbar {
+    display: none; 
+}

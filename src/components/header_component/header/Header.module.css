@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+.header{
+    height: 75px;
+    width: 100%;
+    background-color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    z-index: 1000;
+}
+
+@media(max-width: 550px){
+    .header{
+        justify-content: space-evenly;
+    }
+}

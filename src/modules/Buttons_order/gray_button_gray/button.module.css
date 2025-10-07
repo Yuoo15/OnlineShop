@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+.gray_button_gray{
+    font-family: "Roboto", sans-serif;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #D6D6D6;
+    padding-inline:44px ;
+    padding-block: 8px;
+    border: none;
+    border-radius: 4px;
+}

@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+.cont{
+    height: auto;
+    width: 100%;
+    padding-top: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:flex-start;
+    gap:30px;
+}
+
+.image{
+    background-color: gainsboro;
+    height: 396px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first{
+    max-width: 528px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.free{
+    font-size: 20;
+}
+
+.dis{
+    border:1px solid #E5E5E5;
+    padding: 20px;
+    border-radius: 5px;
+    font-family: "Roboto", sans-serif;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.dis > span{
+    display: inline-flex;
+    flex-direction: row;
+    column-Gap: 10
+}
+
+p{
+    margin: 0;
+}
+
+.center{
+    margin-block: 10px;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.price{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #56B280;
+    font-size: 26px;
+    text-align: center;
+}
+
+.opp{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 10px;
+}
+
+.free{
+    font-family: "Roboto", sans-serif;
+    color: #56B280;
+    margin-top: 30px ;
+}
+
+.h1_mobile{
+    display: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.inf{
+    display: block;
+}
+
+.inf_mobile{
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .cont {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    column-gap: 20px;
+    justify-content: center;
+    padding-inline: 10px;
+    width: auto;
+  }
+
+  .price{
+
+  }
+  .inf_mobile{
+    display: block;
+    text-align: center;
+  }
+
+  .inf{
+    display: none;
+  }
+
+  .h1_mobile{
+    display: block;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: left;
+    
+  }
+  .dis {
+    font-size: 14px;
+    padding: 16px;
+    margin-top: 10px;
+  }
+
+  .h1 {
+    display: none;
+  }
+
+  .flex{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .buy{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+  }
+}

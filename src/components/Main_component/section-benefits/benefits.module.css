@@ -1,0 +1,105 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 80px;
+    padding-bottom: 0;
+    gap: 40px;
+    height: 100dvh;
+    box-sizing: border-box;
+    background-color: #F7F8FA;
+}
+
+.info_block {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.text {
+    margin-bottom: 40px;
+}
+
+.h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    margin: 0 0 20px 0;
+    flex-wrap: nowrap;
+}
+
+.p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: #56B280;
+    margin-bottom: 40px;
+}
+
+.ul {
+    list-style-image: url('../../../assets/checkmark.png');
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.li {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+.img_desktop {
+    display: block;
+    flex: 1;
+    max-width: 100%;
+    height: auto;
+}
+
+.img_mobile {
+    display: none;
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        padding: 20px 10px;
+        gap: 30px;
+        height: auto;
+    }
+
+    .img_desktop {
+        display: none;
+    }
+
+    .img_mobile {
+        display: block;
+    }
+
+    .info_block {
+        align-items: center;
+    }
+
+    .ul {
+        align-items: flex-start;
+        direction: ltr;
+    }
+
+
+    .li {
+        font-size: 14px;
+    }
+
+    .h1{
+        text-align: center;
+    }
+
+    .p{
+        text-align: center;
+    }
+}

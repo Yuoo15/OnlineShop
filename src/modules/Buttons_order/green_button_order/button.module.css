@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+.green_button_green{
+    font-family: "Roboto", sans-serif;
+    min-width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #56B280;
+    padding-inline:44px ;
+    padding-block: 8px;
+    color:white;
+    border: none;
+    border-radius: 4px;
+}
+
+.img{
+    display: block;
+    height: 24px;
+    width: 24px;
+}
