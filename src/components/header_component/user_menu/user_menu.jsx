@@ -1,5 +1,5 @@
 import React, { memo } from "react";
-import profile from '@/assets/vector.png'
+import profile from '@/assets/ppp.png'
 import cart from '@/assets/Cart.png'
 import styles from './user_menu.module.css'
 const user_menu = memo(()=>{
