@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Logo from "../logo/logo";
 import Burger from "@/modules/burger/burger";
-import styles from './Header.module.css'
+import styles from './header.module.css'
 import User_menu from "../user_menu/user_menu";
 import Nav from "../nav/nav";
 export default()=>{

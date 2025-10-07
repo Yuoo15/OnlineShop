@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import './Drop.css'
+import './drop.css'
 
 export default()=>{
     const [open, setOpen] = useState(false)
