@@ -1,4 +1,4 @@
-import Cart from '../../../assets/cart_white.png'
+import Cart from '../../../assets/cart-white.png'
 import styles from './button.module.css'
 export default(props)=>{
     return(
