@@ -6,7 +6,7 @@ import 'normalize.css'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter basename="/Online-Shop">
+    <BrowserRouter>
       <App />
     </BrowserRouter>
   </StrictMode>,
